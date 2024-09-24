@@ -64,7 +64,7 @@ a {
 .people1 {
     position: absolute;
     right: 450px;
-    width: 340px;
+    width: 450px;
     bottom: 0;
     z-index: 0;
 }
@@ -268,7 +268,7 @@ a {
     .content-area {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-gap: 140px;
+        grid-gap: 0px;
         padding-top: 100px;
         padding-bottom: 100px;
 
@@ -302,7 +302,7 @@ a {
         img {
             position: absolute;
             top: -80px;
-            max-width: 300px;
+            max-width: 340px;
         }
         .right {
             padding-left: 340px;
@@ -753,7 +753,7 @@ a {
         .content-area {
 
             img {
-                max-width: 230px;
+                max-width: 280px;
             }
             .right {
                 padding-left: 240px;
