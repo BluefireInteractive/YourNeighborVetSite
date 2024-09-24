@@ -232,7 +232,7 @@ a:hover {
 }
 
 #about * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #about .content-area {
   display: grid;
@@ -257,7 +257,7 @@ a:hover {
   background-color: #F68F56;
 }
 #signingBonus * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #signingBonus .content-area {
   max-width: 1350px;
@@ -283,7 +283,7 @@ a:hover {
 }
 
 #benefits * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #benefits .content-area {
   max-width: 1350px;
@@ -317,7 +317,7 @@ a:hover {
 }
 
 #dvmservices * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #dvmservices .content-area {
   display: grid;
@@ -334,7 +334,7 @@ a:hover {
 }
 
 #techservices * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #techservices .content-area {
   display: grid;
@@ -357,7 +357,7 @@ a:hover {
   padding-bottom: 90px;
 }
 #testamonials * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #testamonials .quote-left, #testamonials .quote-right {
   width: 120px;
@@ -465,7 +465,7 @@ a:hover {
   background-color: #C8EBFA;
 }
 #joinupper * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #joinupper .content-area {
   max-width: 1000px;
@@ -484,7 +484,7 @@ a:hover {
 }
 
 #joinDetails * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #joinDetails .content-area {
   padding-bottom: 80px;
