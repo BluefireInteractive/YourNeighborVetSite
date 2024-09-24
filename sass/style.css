@@ -139,6 +139,9 @@ a:hover {
   overflow: hidden;
   max-width: 380px;
 }
+#hero .hero-content .form-container * {
+  box-sizing: content-box !important;
+}
 #hero .hero-content .form-container #mc_embed_signup {
   margin-bottom: 40px;
 }

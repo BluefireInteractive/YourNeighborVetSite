@@ -147,6 +147,9 @@ a {
         }
 
         .form-container {
+            * {
+                box-sizing: content-box !important;
+            }
             overflow: hidden;
             max-width: 380px;
             #mc_embed_signup {
