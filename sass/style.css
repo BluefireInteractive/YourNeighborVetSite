@@ -44,6 +44,7 @@ a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   transition: 0.25s;
+  font-size: 24px;
   text-decoration: none;
 }
 .btn:hover {
@@ -54,7 +55,7 @@ a:hover {
 .content-area {
   max-width: 1660px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 60px;
   position: relative;
 }
 
@@ -154,6 +155,14 @@ a:hover {
   text-align: center;
   padding-top: 50px;
   font-size: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#hero .hero-content .form-container #mc_embed_signup form h3 {
+  font-size: 24px;
+  margin: 0px auto;
+  text-align: center;
+  color: #6E90CA;
 }
 #hero .hero-content .form-container #mc_embed_signup form #mc_embed_signup_scroll .indicates-required {
   margin-right: 0px;
@@ -241,7 +250,7 @@ a:hover {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 0px;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 #about .content-area .left-col {
@@ -288,13 +297,22 @@ a:hover {
   position: relative;
 }
 
+#petsbanner img {
+  width: 100%;
+  top: -30px;
+  position: relative;
+}
+
+#benefits {
+  background-color: #F9F9F9;
+}
 #benefits * {
   box-sizing: content-box;
 }
 #benefits .content-area {
   max-width: 1350px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 #benefits .content-area h2 {
   text-align: center;
@@ -306,6 +324,11 @@ a:hover {
   max-width: 1000px;
   margin: 0px auto;
   text-align: center;
+}
+#benefits .content-area .button-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
 }
 #benefits .content-area .card-grid {
   display: grid;
@@ -322,8 +345,28 @@ a:hover {
   vertical-align: top;
 }
 
-#dvmservices * {
+#staffingsolutions * {
   box-sizing: content-box;
+}
+#staffingsolutions .content-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 120px;
+}
+#staffingsolutions .content-area .left-col .button-wrapper {
+  padding-top: 40px;
+}
+#staffingsolutions .content-area .right-col ul {
+  max-width: 700px;
+  float: right;
+  margin-top: 60px;
+}
+#staffingsolutions .content-area .right-col ul li {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+#dvmservices * {
+  box-sizing: border-box;
 }
 #dvmservices .content-area {
   display: grid;
@@ -343,7 +386,7 @@ a:hover {
 }
 
 #techservices * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 #techservices .content-area {
   display: grid;
@@ -614,6 +657,13 @@ a:hover {
   p, ul, li {
     font-size: 16px;
   }
+  .btn {
+    font-size: 16px;
+  }
+  #staffingsolutions .content-area .right-col ul li {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
   #hero .hero-content .hero-text p {
     font-size: 24px;
   }
@@ -705,6 +755,19 @@ a:hover {
   }
   p {
     text-align: center;
+  }
+  .content-area {
+    padding: 0 30px;
+  }
+  #staffingsolutions .content-area {
+    grid-template-columns: 1fr;
+  }
+  #staffingsolutions .content-area .left-col .button-wrapper {
+    text-align: center;
+  }
+  #staffingsolutions .content-area .right-col ul {
+    max-width: unset;
+    float: unset;
   }
   #hero .hero-content {
     grid-template-columns: 1fr;
