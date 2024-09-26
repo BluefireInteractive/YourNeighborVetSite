@@ -30,6 +30,9 @@ h4 {
 p, ul, li {
     font-size: 24px;
     color: #707070;
+    &.small {
+        font-size: 16px;
+    }
 }
 li::marker {
     color: #F38F5C;
@@ -760,6 +763,9 @@ a {
 
     p, ul, li {
         font-size: 16px;
+        &.small {
+            font-size: 12px;
+        }
     }
 
     .btn {
@@ -869,6 +875,9 @@ a {
     }
     p, ul, li {
         font-size: 16px;
+        &.small {
+            font-size: 12px;
+        }
     }
     #about {
         .content-area {
